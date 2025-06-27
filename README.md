@@ -28,3 +28,5 @@ Along with the base frequency of the note, guitar strings also have overtones. S
 ![guitar_fft](https://github.com/user-attachments/assets/266737d4-b064-4a65-8211-d8823fa5be0a)
 
 Source: https://www.researchgate.net/publication/331620271_Real-time_quasi-distributed_fiber_optic_sensor_based_on_resonance_frequency_mapping
+
+It's important to note that the sensor for the tuner will be much more noisy, and so the frequency transform may be less 
