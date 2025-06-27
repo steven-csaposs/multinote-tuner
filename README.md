@@ -78,6 +78,11 @@ I notice that the STM32 also has two integrated ADCs. I may be able to use these
 This is an example of the click-E evaluation board with random click-E modules filled in.
 ![image](https://github.com/user-attachments/assets/d0bb7c63-20f8-4b41-9a21-9d137f9eef9b)
 
+Microphone:
+
+For the microphone, I have to choose between a standard microphone and a contact microphone. The contact microphone seems like a better option because it will only pick up the signal from the guitar, and will remove any ambient noise.
+I selected this contact microphone from Amazon.
+![image](https://github.com/user-attachments/assets/203b5137-0d96-4f91-baa6-b540021d3e8a)
 
 
 
