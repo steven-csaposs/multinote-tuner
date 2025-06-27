@@ -53,7 +53,7 @@ Tuning:
 3. The tuner shall have an accuracy of within +/- 2 cents.
 
 Latency:
-4. The tuner shall have a latency of less than 200 ms, measured from when the string is played to when the tonal information is displayed.
+1. The tuner shall have a latency of less than 200 ms, measured from when the string is played to when the tonal information is displayed.
 
 ## Component Selection
 
