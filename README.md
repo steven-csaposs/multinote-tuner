@@ -59,4 +59,13 @@ Latency:
 
 ## Component Selection
 
+I don't want to design a PCB for this project (yet), so all the components selected must be available in some sort of evaluation or breadboard fashion.
+
+I recently have used a click-E evaluation board for work, and so I figured this would be a good starting place to find different boards to use. The click-E is basically a standardized connector format with many different eval board attachments.
+https://www.mikroe.com/click
+
+For example, I used this 10Base-T1S click-E evaluation board in a previous project: https://www.mikroe.com/two-wire-eth-click
+
+
+
 
