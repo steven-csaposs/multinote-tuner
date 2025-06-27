@@ -72,7 +72,14 @@ This leaves me with the following MCU options:
 3. STM32F407VG
 
 Since all the evaluation boards are the same price, and I don't plan on building this into a consumer product, I'll just go with the MCU that is fastest and has the most memory: STM32F745VG
-I notice that the STM32 also has two integrated ADCs, although I don't want to use these yet because they aren't available on the evaluation board I'm getting.
+
+I notice that the STM32 also has two integrated ADCs. I may be able to use these instead of getting a separate click-E ADC board.
+
+This is an example of the click-E evaluation board with random click-E modules filled in.
+![image](https://github.com/user-attachments/assets/d0bb7c63-20f8-4b41-9a21-9d137f9eef9b)
+
+
+
 
 
 
