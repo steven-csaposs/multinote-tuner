@@ -29,4 +29,29 @@ Along with the base frequency of the note, guitar strings also have overtones. S
 
 Source: https://www.researchgate.net/publication/331620271_Real-time_quasi-distributed_fiber_optic_sensor_based_on_resonance_frequency_mapping
 
-It's important to note that the sensor for the tuner will be much more noisy, and so the frequency transform may be less 
+It's important to note that the sensor for the tuner will be much more noisy, and so the frequency transform will probably have a lot more noise than the one displayed in the image.
+One big potential issue when moving from a single string tuner to multiple strings will be the interference between harmonic frequencies of a note.
+For example, the low E string has a base frequency of 82 Hz, and so it has harmonics at frequencies x2, x3, x4 and so on of the base frequency. So, these harmonics are at 164 Hz, 246 Hz, and 328 Hz. It's immediately obvious that these could interfere with the B string at 247 Hz or the e string at 330 Hz.
+I have a couple ideas for how to resolve this harmonic interference issue, but I won't know what works well until I try it out with the actual hardware.
+
+## Initial Project Requirements
+
+I want a base set of requirements to add some constraints to the project.
+A good tuner will have a high degree of accuracy and it will have low latency so you can quickly adjust the string to the right value.
+To measure accuracy, I'll use the idea of semitones and cents. A semitone is a jump from a given note to the next note. A cent is 1/100 of a semitone.
+So, for the low E string, the base frequency is 82.41 Hz and the next closest notes are E-flat, at 77.78 Hz, and F, at 87.31 Hz. A cent in terms of frequency is roughly (87.31-77.78)/200 => 0.05 Hz.
+Wikipedia suggests that it takes a couple cents for the ear to distinguish tones. https://en.wikipedia.org/wiki/Cent_(music)
+
+So, that leads me to requirements for the project:
+
+Tuning:
+1. The tuner shall measure the frequency of a string played on the guitar.
+2. The tuner shall inform the user of the closest note to the string played, and if the guitar string is sharp or flat.
+3. The tuner shall have an accuracy of within +/- 2 cents.
+
+Latency:
+4. The tuner shall have a latency of less than 200 ms, measured from when the string is played to when the tonal information is displayed.
+
+## Component Selection
+
+
