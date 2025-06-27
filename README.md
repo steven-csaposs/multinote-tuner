@@ -64,7 +64,17 @@ I don't want to design a PCB for this project (yet), so all the components selec
 I recently have used a click-E evaluation board for work, and so I figured this would be a good starting place to find different boards to use. The click-E is basically a standardized connector format with many different eval board attachments.
 https://www.mikroe.com/click
 
-For example, I used this 10Base-T1S click-E evaluation board in a previous project: https://www.mikroe.com/two-wire-eth-click
+Because I want to have some flexibility with using this part in the future, and I want to learn on something representative of what is used in industry, I decided to go with a STM32 ARM MCU. I also want 4 click-E expansion slots. 
+
+This leaves me with the following MCU options:
+1. STM32F745VG
+2. STM32F302VC
+3. STM32F407VG
+
+Since all the evaluation boards are the same price, and I don't plan on building this into a consumer product, I'll just go with the MCU that is fastest and has the most memory: STM32F745VG
+I notice that the STM32 also has two integrated ADCs, although I don't want to use these yet because they aren't available on the evaluation board I'm getting.
+
+
 
 
 
