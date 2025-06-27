@@ -25,5 +25,6 @@ Each string would have the following base frequency:
 I would also want to support alternative tunings, like DGDGBD, for example, which have different frequencies. Regardless, we can see that the tuner should be capable of detecting frequencies from ~50 to 400 Hz.
 
 Along with the base frequency of the note, guitar strings also have overtones. See the image below for a measurement of the overtones.
+![guitar_fft](https://github.com/user-attachments/assets/266737d4-b064-4a65-8211-d8823fa5be0a)
 
 Source: https://www.researchgate.net/publication/331620271_Real-time_quasi-distributed_fiber_optic_sensor_based_on_resonance_frequency_mapping
