@@ -33,7 +33,6 @@ It's important to note that the sensor for the tuner will be much more noisy, an
 One big potential issue when moving from a single string tuner to multiple strings will be the interference between harmonic frequencies of a note.
 
 For example, the low E string has a base frequency of 82 Hz, and so it has harmonics at frequencies x2, x3, x4 and so on of the base frequency. So, these harmonics are at 164 Hz, 246 Hz, and 328 Hz. 
-
 It's immediately obvious that these could interfere with the B string at 247 Hz or the e string at 330 Hz.
 
 I have a couple ideas for how to resolve this harmonic interference issue, but I won't know what works well until I try it out with the actual hardware.
